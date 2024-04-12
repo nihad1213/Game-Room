@@ -5,5 +5,58 @@
 }
 
 /*Header part starts*/
+header nav {
+    display: flex;
+    align-items: center;
+}
 
+header .header-first {
+    background-color: #2e58e0;
+}
+
+header .header-first .row a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .header-first .row a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffdd45;
+}
 /*Header part ends*/
+
+/*Footer part starts*/
+footer a{
+    text-decoration: none;
+}
+
+footer a:link {
+    color: #1b1b1b;
+}
+
+.icons a {
+    text-decoration: none;
+ }
+ 
+ footer i:hover {
+    transition: all 0.3s;
+    color: #1b1b1b;
+ }
+ 
+ footer a:hover i:hover {
+    font-size: 18px;
+ }
+ 
+ .products p a:hover {
+    font-size: 18px;
+ }
+ 
+ .links p a:hover {
+    font-size: 18px;
+ }
+ 
+ .contact p:hover {
+    font-size: 18px;
+ }
+ 
+/*Footer part ends*/
