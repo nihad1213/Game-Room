@@ -5,6 +5,7 @@
 }
 
 /*Header part starts*/
+/*header first part starts*/
 header nav {
     display: flex;
     align-items: center;
@@ -20,43 +21,53 @@ header .header-first .row a {
 }
 
 header .header-first .row a:hover{
-    text-decoration: underline;
-    text-decoration-color: #ffdd45;
+    color: #ffdd45;
 }
+
+.logo {
+    padding-left: 20px;
+}
+/*header first part ends*/
+
+/*Header second starts*/
+.header-second {
+    background-color: #1b3aa0;
+    display: flex;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.header-second .companies .comp-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-second .companies .comp-item a:hover {
+    color: #ffdd45;
+}
+
+.search button{
+    background-color: #ffdd45;
+    border: 2px solid #b69c29;
+    width: 58px;
+    height: 36px;
+}
+
+.companies {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.comp-item {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.search {
+    padding-left: 23px;
+    padding: 5px;
+}
+/*header second part ends*/
+
 /*Header part ends*/
-
-/*Footer part starts*/
-footer a{
-    text-decoration: none;
-}
-
-footer a:link {
-    color: #1b1b1b;
-}
-
-.icons a {
-    text-decoration: none;
- }
- 
- footer i:hover {
-    transition: all 0.3s;
-    color: #1b1b1b;
- }
- 
- footer a:hover i:hover {
-    font-size: 18px;
- }
- 
- .products p a:hover {
-    font-size: 18px;
- }
- 
- .links p a:hover {
-    font-size: 18px;
- }
- 
- .contact p:hover {
-    font-size: 18px;
- }
- 
-/*Footer part ends*/
