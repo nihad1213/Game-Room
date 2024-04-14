@@ -18,7 +18,7 @@
    <!--Favicon link ends-->
 
    <!--CSS link starts-->
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
    <!--CSS link ends-->
 
    <!--Arcade font link starts-->
@@ -34,8 +34,8 @@
     <header>
         <div class="header-first">
             <nav class="row">
-                <a href="index.html" class="col-8 logo">
-                    <img src="assets/logos/logo2.png" alt="logo">
+                <a href="./index.php" class="col-8 logo">
+                    <img src="./assets/logos/logo2.png" alt="logo">
                 </a>
                 <a href="#" class="col-2 nav-item"><strong>Sell Video Games</strong></a>
                 <a href="#" class="col-1 nav-item"><strong><i class="fa-solid fa-user"></i></strong></a>
@@ -119,105 +119,3 @@
             </div>
         </div>
     </header>
-    
-   <main>
-      <div class="main-total container">
-         <div class="main-image col-6">
-            <img src="assets/main/main.jpg" alt="main-image">
-         </div>
-
-         <div class="main-text col-6">
-            <div class="header">
-               <h3>GameRoom is True Old School Game Store!</h3>
-            </div>
-
-            <div class="main-paragraph">
-               <p>
-                  Buy used video games, original game systems and old school gaming accessories at the largest family run retro video game online store. Shop all our vintage authentic products, with a free 1 year warranty and free domestic shipping on orders over $10!
-               </p>
-            </div>
-         </div>
-      </div>
-
-      <div class="become-subscriber">
-         <div class="subscriber-header">
-            <h2>Get Game Deals</h2>
-         </div>
-
-         <div class="subscriber-paragraph">
-            <p>
-               Signup to get <strong >EXCLUSIVE</strong> deals and coupons on all your favorite old video games and classic game consoles!
-            </p>
-         </div>
-
-         <div class="subsriber-input">
-            <form action="index.html">
-               <span>
-                  <i class="fa-solid fa-envelope"></i>
-               </span>
-               <input type="email" placeholder="Enter your Mail">
-               <button type="submit"><i class="fa-brands fa-telegram"></i></button>
-            </form>
-         </div>
-      </div>
-   </main>
-
-   <footer>   
-      <div class="footer-image">
-         <img src="assets/logos/logo2.png" alt="">
-      </div>
-      
-      <div class="footer-total">
-         <div class="footer-store">
-            <div class="footer-headers">
-               <h4>GR Store</h4>
-            </div>
-            
-            <div class="footer-links">
-               <a href="#">About Us</a>
-               <a href="#">Repair Center</a>
-               <a href="#">Deals and Coupons</a>
-            </div>
-         </div>
-
-         <div class="footer-company">
-            <div class="footer-headers">
-               <h4>Company</h4>
-            </div>
-
-            <div class="footer-links">
-               <a href="#">Shipping & Return</a>
-               <a href="#">Refurbish & Inspection Process</a>
-               <a href="#">Contact Us</a>
-               <a href="#">Privacy</a>
-               <a href="#">FAQs</a>
-            </div>
-         </div>
-
-         <div class="footer-account">
-            <div class="footer-headers">
-               <h4>Account</h4>
-            </div>
-
-            <div class="footer-links">
-               <a href="#">Terms and Conditions</a>
-               <a href="#">Secure Shopping</a>
-            </div>
-         </div>
-
-         <div class="footer-account">
-            <div class="footer-headers">
-               <h4>Get Social</h4>
-            </div>
-
-            <div class="footer-links">
-               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-               <a href="#"><i class="fa-brands fa-instagram"></i></a>
-               <a href="#"><i class="fa-brands fa-youtube"></i></a>
-               <a href="https://github.com/nihad1213" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </div>
-         </div>
-      </div>
-   </footer>
-</body>
-</html>
