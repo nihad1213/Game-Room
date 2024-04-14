@@ -4,6 +4,10 @@
     font-style: normal;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 /*Header part starts*/
 /*header first part starts*/
 header nav {
@@ -120,14 +124,11 @@ ul li a {
 
 
 /*main part starts*/
-main {
-    padding: 23px 54px;
-}
-
 .main-total {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 23px 54px;
 }
 
 .main-image img {
@@ -144,5 +145,29 @@ main {
 .main-paragraph p {
     font-size: 23px;
     color: #2e58e0;
+}
+
+.become-subscriber {
+    background-color: #2e58e0;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.subscriber-header {
+    font-size: 43px;
+    color: #fff;
+    font-family: 'Press Start 2P';
+    text-decoration: underline;
+    text-decoration-color: #ffdd45;
+}
+
+.subscriber-paragraph {
+    font-size: 23px;
+    color: #fff;
+}
+
+.subscriber-paragraph strong {
+    color: #ffdd45;
 }
 /*main part ends*/
