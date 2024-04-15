@@ -54,6 +54,9 @@
             </div>
          </div>
       </div>
+      <div class="footer-copyright">
+            <p><strong>GameRoom.com</strong>© Created by Nihad Namatli<?php echo date("d-M-Y"); ?></p>
+         </div>
    </footer>
 </body>
 </html>

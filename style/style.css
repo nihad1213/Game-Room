@@ -251,4 +251,15 @@ footer {
     transition: all 0.6s;
 }
 
+.footer-copyright {
+    color: #fff;
+    background-color: #1b3aa0;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.footer-copyright strong {
+    color: #ffdd45;
+}
 /*footer part ends*/
