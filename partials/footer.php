@@ -22,7 +22,7 @@
             </div>
 
             <div class="footer-links">
-               <a href="#">Shipping & Return</a>
+               <a href="shipping.php">Shipping & Return</a>
                <a href="#">Refurbish & Inspection Process</a>
                <a href="#">Contact Us</a>
                <a href="#">Privacy</a>

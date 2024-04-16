@@ -187,11 +187,11 @@
             </div>
 
             <div class="footer-links">
-               <a href="#">Shipping & Return</a>
-               <a href="#">Refurbish & Inspection Process</a>
-               <a href="#">Contact Us</a>
-               <a href="#">Privacy</a>
-               <a href="#">FAQs</a>
+               <a href="partials/shipping.php">Shipping & Return</a>
+               <a href="partials">Refurbish & Inspection Process</a>
+               <a href="partials">Contact Us</a>
+               <a href="partials">Privacy</a>
+               <a href="partials">FAQs</a>
             </div>
          </div>
 

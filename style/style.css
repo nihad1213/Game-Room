@@ -210,10 +210,13 @@ ul li a {
     margin-bottom: 12px;
 }
 
-.footer-links-paragraph p{
+.footer-links-paragraph p {
     font-size: 21px;
 }
 
+.footer-links-ul {
+    font-size: 17px;
+}
 /*main part for footer links end*/
 
 /*main part ends*/
