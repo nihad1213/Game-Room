@@ -10,7 +10,7 @@
             </div>
             
             <div class="footer-links">
-               <a href="#">About Us</a>
+               <a href="partials/footer-links/about-us.php">About Us</a>
                <a href="#">Repair Center</a>
                <a href="#">Deals and Coupons</a>
             </div>
