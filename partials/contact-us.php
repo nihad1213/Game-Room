@@ -78,7 +78,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         </div>
 
                         <div>
-                            <input type="mail" placeholder="Enter your Mail" required>
+                            <input type="mail" placeholder="Enter your Mail" name="mail" required>
                         </div>
                     </div>
 
@@ -98,7 +98,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         </div>
 
                         <div>
-                            <textarea name="message" cols="85" rows="10" placeholder="Enter your text here" required></textarea>  
+                            <textarea name="message" cols="85" rows="10" placeholder="Enter your text here" name="subject" required></textarea>  
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         <input type="text" name="captcha">
 
                         <div class="captcha-submit">
-                            <button class="captcha-button" type="submit">Send Message</button>
+                            <button class="captcha-button" type="submit" name="submit">Send Message</button>
                         </div>
                     </form>
                 </div>
@@ -126,3 +126,4 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
 </main>
 <script src="../script/refresh-captcha.js"></script>
 <?php include_once('footer.php'); ?>
+
