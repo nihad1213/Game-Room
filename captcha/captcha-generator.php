@@ -5,7 +5,7 @@ define('CAPTCHA_FONT', 'atwriter.ttf');
 define('CAPTCHA_WIDTH', 200);
 define('CAPTCHA_HEIGHT', 65);
 define('CAPTCHA_SIZE', 8);
-define('captchaCharacters', 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890');
+define('captchaCharacters', 'qwertyuiopasdfghjklzxcvbnm');
 define('captchaTextColor', '1b3aa0');
 define('CAPTCHA_FONT_SIZE', CAPTCHA_HEIGHT * 0.5);
 

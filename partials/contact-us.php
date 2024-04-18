@@ -1,3 +1,15 @@
+<?php
+session_start();
+if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
+
+    if (strcasecmp($_SESSION['captcha'], $_POST['captcha']) != 0 ) {
+        echo '<script>alert("Message didn\'t send")</script>'; 
+    } else {
+        echo '<script>alert("Message send successfully")</script>';	
+    }
+}
+?>
+
 <?php include_once('header.php'); ?>
 <main>
 <div class="footer-links-text">
@@ -48,7 +60,7 @@
         </div>
 
         <div class="footer-links-paragraph">
-            <form action="contact-us.php">
+            <form>
                 <div class="contact-us-form">
                     <div>
                         <div>
@@ -76,7 +88,7 @@
                         </div>
 
                         <div>
-                            <input type="tel"  placeholder="Enter your Phone Number" required>
+                            <input type="tel"  placeholder="Enter your Phone Number">
                         </div>
                     </div>
 
@@ -90,26 +102,25 @@
                         </div>
                     </div>
                 </div>
+            </form>
 
-                <div class="captcha">
+            <div class="captcha">
                     <div class="captcha-img">
                         <img src="../captcha/captcha-generator.php?rand = <?php echo rand(); ?>" alt="captcha-img" id="captcha-img">
                         <span><a href="javascript: refreshCaptcha()">Can't See? Refresh Image</a></span>
                     </div>
 
-                    <form action="contact-us.php">
+                    <form method="post">
                         <div>
                             <label for="captcha-input">Write Characters Shown in Image:</label>
                         </div>
-                        
-                        <input type="text">
-                        
+                        <input type="text" name="captcha">
+
                         <div class="captcha-submit">
                             <button class="captcha-button" type="submit">Send Message</button>
                         </div>
                     </form>
                 </div>
-            </form>
         </div>
 </div>
 </main>
