@@ -195,6 +195,30 @@ ul li a {
     height: 32px;
     color: #222325;
 }
+/*main part for footer links start*/
+.footer-links-text {
+    margin: 12px 34px 12px 34px;
+}
+
+.footer-links-header {
+    color: #2e58e0;
+}
+
+.footer-links-paragraph {
+    color: #2e58e0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-links-paragraph p {
+    font-size: 21px;
+}
+
+.footer-links-ul {
+    font-size: 17px;
+}
+/*main part for footer links end*/
+
 /*main part ends*/
 
 /*footer part starts*/

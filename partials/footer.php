@@ -1,6 +1,6 @@
 <footer>   
       <div class="footer-image">
-         <img src="./assets/logos/logo2.png" alt="">
+         <img src="../assets/logos/logo2.png" alt="">
       </div>
       
       <div class="footer-total">
@@ -10,9 +10,9 @@
             </div>
             
             <div class="footer-links">
-               <a href="partials/footer-links/about-us.php">About Us</a>
-               <a href="#">Repair Center</a>
-               <a href="#">Deals and Coupons</a>
+               <a href="about-us.php">About Us</a>
+               <a href="repair-center.php">Repair Center</a>
+               <a href="deals.php">Deals and Coupons</a>
             </div>
          </div>
 
@@ -22,7 +22,7 @@
             </div>
 
             <div class="footer-links">
-               <a href="#">Shipping & Return</a>
+               <a href="shipping.php">Shipping & Return</a>
                <a href="#">Refurbish & Inspection Process</a>
                <a href="#">Contact Us</a>
                <a href="#">Privacy</a>
