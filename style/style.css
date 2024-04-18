@@ -250,6 +250,11 @@ ul li a {
 .captcha-submit button:hover {
     background-color: #1b3aa0;
 }
+
+.captcha-img span a{
+    text-decoration: none;
+    color: #004591;
+}
 /*main part for footer links end*/
 
 /*main part ends*/

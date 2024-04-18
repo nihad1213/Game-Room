@@ -93,7 +93,8 @@
 
                 <div class="captcha">
                     <div class="captcha-img">
-                        <img src="../captcha/captcha-generator.php" alt="captcha-img">
+                        <img src="../captcha/captcha-generator.php?rand = <?php echo rand(); ?>" alt="captcha-img" id="captcha-img">
+                        <span><a href="javascript: refreshCaptcha()">Can't See? Refresh Image</a></span>
                     </div>
 
                     <form action="contact-us.php">
@@ -112,4 +113,5 @@
         </div>
 </div>
 </main>
+<script src="../script/refresh-captcha.js"></script>
 <?php include_once('footer.php'); ?>
