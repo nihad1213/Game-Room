@@ -23,7 +23,7 @@
 
             <div class="footer-links">
                <a href="shipping.php">Shipping & Return</a>
-               <a href="#">Refurbish & Inspection Process</a>
+               <a href="refurbish.php">Refurbish & Inspection Process</a>
                <a href="#">Contact Us</a>
                <a href="#">Privacy</a>
                <a href="#">FAQs</a>

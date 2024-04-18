@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include_once('header.php'); ?>
 <main>
     <div class="footer-links-text">
         <div class="footer-links-header">
@@ -40,5 +40,5 @@
         </div>
     </div>
 </main>
-<?php include('footer.php'); ?>
+<?php include_once('footer.php'); ?>
                 
