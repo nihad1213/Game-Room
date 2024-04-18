@@ -188,10 +188,10 @@
 
             <div class="footer-links">
                <a href="partials/shipping.php">Shipping & Return</a>
-               <a href="partials">Refurbish & Inspection Process</a>
-               <a href="partials">Contact Us</a>
-               <a href="partials">Privacy</a>
-               <a href="partials">FAQs</a>
+               <a href="partials/refurbish.php">Refurbish & Inspection Process</a>
+               <a href="partials/contact-us.php">Contact Us</a>
+               <a href="partials/privacy.php">Privacy</a>
+               <a href="partials/faq.php">FAQs</a>
             </div>
          </div>
 
@@ -220,7 +220,7 @@
          </div>
       </div>
       <div class="footer-copyright">
-            <p><strong>GameRoom.com</strong>© Created by Nihad Namatli<?php echo date("d-M-Y"); ?></p>
+            <p><strong>GameRoom.com</strong>© Created by Nihad Namatli <?php echo date("d-M-Y"); ?></p>
          </div>
    </footer>
 </body>

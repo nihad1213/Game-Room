@@ -24,9 +24,9 @@
             <div class="footer-links">
                <a href="shipping.php">Shipping & Return</a>
                <a href="refurbish.php">Refurbish & Inspection Process</a>
-               <a href="#">Contact Us</a>
-               <a href="#">Privacy</a>
-               <a href="#">FAQs</a>
+               <a href="contact-us.php">Contact Us</a>
+               <a href="privacy.php">Privacy</a>
+               <a href="faq.php">FAQs</a>
             </div>
          </div>
 
@@ -55,7 +55,7 @@
          </div>
       </div>
       <div class="footer-copyright">
-            <p><strong>GameRoom.com</strong>© Created by Nihad Namatli<?php echo date("d-M-Y"); ?></p>
+            <p><strong>GameRoom.com</strong>© Created by Nihad Namatli <?php echo date("d-M-Y"); ?></p>
          </div>
    </footer>
 </body>

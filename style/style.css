@@ -217,6 +217,39 @@ ul li a {
 .footer-links-ul {
     font-size: 17px;
 }
+
+.contact {
+    text-decoration: none;
+}
+
+.contact-us-form input {
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.contact-us-form textarea {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.captcha input {
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.captcha-button {
+    padding: 9px;
+    color: #fff;
+    background-color: #00346e;
+    border-radius: 3px;
+    border-width: 0;
+}
+
+.captcha-submit button:hover {
+    background-color: #1b3aa0;
+}
 /*main part for footer links end*/
 
 /*main part ends*/
