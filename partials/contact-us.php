@@ -60,7 +60,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
         </div>
 
         <div class="footer-links-paragraph">
-            <form>
+            <form method="post">
                 <div class="contact-us-form">
                     <div>
                         <div>
