@@ -201,8 +201,8 @@
             </div>
 
             <div class="footer-links">
-               <a href="#">Terms and Conditions</a>
-               <a href="#">Secure Shopping</a>
+               <a href="partials/terms.php">Terms and Conditions</a>
+               <a href="partials/secure.php">Secure Shopping</a>
             </div>
          </div>
 

@@ -36,8 +36,8 @@
             </div>
 
             <div class="footer-links">
-               <a href="#">Terms and Conditions</a>
-               <a href="#">Secure Shopping</a>
+               <a href="terms.php">Terms and Conditions</a>
+               <a href="secure.php">Secure Shopping</a>
             </div>
          </div>
 
