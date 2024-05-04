@@ -1,6 +1,6 @@
 <footer>   
       <div class="footer-image">
-         <img src="../assets/logos/logo2.png" alt="">
+         <img src="./assets/logos/logo2.png" alt="">
       </div>
       
       <div class="footer-total">
@@ -10,7 +10,7 @@
             </div>
             
             <div class="footer-links">
-               <a href="about-us.php">About Us</a>
+               <a href="partials/footer-links/about-us.php">About Us</a>
                <a href="repair-center.php">Repair Center</a>
                <a href="deals.php">Deals and Coupons</a>
             </div>

@@ -1,4 +1,4 @@
-<?php include_once('header.php'); ?>
+<?php include(__DIR__.'partials/header.php'); ?>
 <main>
     <div class="footer-links-text">
         <div class="footer-links-header">
@@ -35,5 +35,5 @@
         </div>
     </div>
 </main>
-<?php include_once('footer.php'); ?>
+<?php include_once('../footer.php'); ?>
  
