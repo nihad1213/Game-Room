@@ -1,4 +1,4 @@
-<?php include_once('header.php'); ?>
+<?php include_once('../../includes/header.php'); ?>
 <main>
     <div class="footer-links-text">
         <div class="footer-links-header">
@@ -63,5 +63,5 @@
         </div>
     </div>
 </main>
-<script src="../script/accordion.js"></script>
-<?php include_once('footer.php'); ?>
+<script src="../../assets/script/accordion.js"></script>
+<?php include_once('../../includes/footer.php'); ?>

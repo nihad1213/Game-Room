@@ -10,7 +10,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
 }
 ?>
 
-<?php include_once('header.php'); ?>
+<?php include_once('../../includes/header.php'); ?>
 <main>
 <div class="footer-links-text">
         <div class="footer-links-header">
@@ -106,7 +106,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
 
             <div class="captcha">
                     <div class="captcha-img">
-                        <img src="../captcha/captcha-generator.php?rand = <?php echo rand(); ?>" alt="captcha-img" id="captcha-img">
+                        <img src="../../captcha/captcha-generator.php?rand = <?php echo rand(); ?>" alt="captcha-img" id="captcha-img">
                         <span><a href="javascript: refreshCaptcha()">Can't See? Refresh Image</a></span>
                     </div>
 
@@ -124,6 +124,6 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
         </div>
 </div>
 </main>
-<script src="../script/refresh-captcha.js"></script>
-<?php include_once('footer.php'); ?>
+<script src="../../assets/script/refresh-captcha.js"></script>
+<?php include_once('../../includes/footer.php'); ?>
 
