@@ -19,6 +19,7 @@
 
    <!--CSS link starts-->
     <link rel="stylesheet" href="../assets/style/style.css" type="text/css">
+    <link rel="stylesheet" href="../assets/style/consoles.css" type="text/css">
    <!--CSS link ends-->
 
    <!--Arcade font link starts-->
@@ -28,6 +29,11 @@
    <!--Google Font Press Start 2P font link starts-->
     <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
    <!--Google Font Press Start 2P font link ends-->
+
+   <!--Swiper.js link starts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!--Swiper.js link ends-->
    <title>Game Room</title>
 </head>
 <body>

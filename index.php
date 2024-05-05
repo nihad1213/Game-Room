@@ -48,7 +48,7 @@
             <div class="companies">
                <ul>
                   <li class="comp-name">
-                     <a  href="#">Sony </a>
+                     <a  href="partials/sony.php">Sony </a>
                      <ul class="dropdown">
                         <li><a href="#">Playstation 1 </a></li>
                         <li><a href="#">Playstation 2</a></li>
