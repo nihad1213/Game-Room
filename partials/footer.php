@@ -1,6 +1,6 @@
 <footer>   
       <div class="footer-image">
-         <img src="../../assets/logos/logo2.png" alt="">
+         <img src="../assets/logos/logo2.png" alt="">
       </div>
       
       <div class="footer-total">

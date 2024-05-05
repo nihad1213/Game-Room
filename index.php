@@ -14,7 +14,7 @@
    <!--Font Awesome link ends-->
 
    <!--Favicon link start-->
-    <link rel="shortcut icon" href="./assets/logos/fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logos/fav.png" type="image/x-icon">
    <!--Favicon link ends-->
 
    <!--CSS link starts-->
@@ -35,8 +35,8 @@
 <header>
         <div class="header-first">
             <nav class="row">
-                <a href="./index.php" class="col-8 logo">
-                    <img src="./assets/logos/logo2.png" alt="logo">
+                <a href="index.php" class="col-8 logo">
+                    <img src="assets/logos/logo2.png" alt="logo">
                 </a>
                 <a href="#" class="col-2 nav-item"><strong>Sell Video Games</strong></a>
                 <a href="#" class="col-1 nav-item"><strong><i class="fa-solid fa-user"></i></strong></a>
@@ -166,7 +166,7 @@
    
    <footer>   
       <div class="footer-image">
-         <img src="./assets/logos/logo2.png" alt="">
+         <img src="assets/logos/logo2.png" alt="">
       </div>
       
       <div class="footer-total">
@@ -176,9 +176,9 @@
             </div>
             
             <div class="footer-links">
-               <a href="partials/footer-links/about-us.php">About Us</a>
-               <a href="partials/footer-links/repair-center.php">Repair Center</a>
-               <a href="partials/footer-links/deals.php">Deals and Coupons</a>
+               <a href="partials/about-us.php">About Us</a>
+               <a href="partials/repair-center.php">Repair Center</a>
+               <a href="partials/deals.php">Deals and Coupons</a>
             </div>
          </div>
 
@@ -188,11 +188,11 @@
             </div>
 
             <div class="footer-links">
-               <a href="partials/footer-links/shipping.php">Shipping & Return</a>
-               <a href="partials/footer-links/refurbish.php">Refurbish & Inspection Process</a>
-               <a href="partials/footer-links/contact-us.php">Contact Us</a>
-               <a href="partials/footer-links/privacy.php">Privacy</a>
-               <a href="partials/footer-links/faq.php">FAQs</a>
+               <a href="partials/shipping.php">Shipping & Return</a>
+               <a href="partials/refurbish.php">Refurbish & Inspection Process</a>
+               <a href="partials/contact-us.php">Contact Us</a>
+               <a href="partials/privacy.php">Privacy</a>
+               <a href="partials/faq.php">FAQs</a>
             </div>
          </div>
 
@@ -202,8 +202,8 @@
             </div>
 
             <div class="footer-links">
-               <a href="partials/footer-links/terms.php">Terms and Conditions</a>
-               <a href="partials/footer-links/secure.php">Secure Shopping</a>
+               <a href="partials/terms.php">Terms and Conditions</a>
+               <a href="partials/secure.php">Secure Shopping</a>
             </div>
          </div>
 
