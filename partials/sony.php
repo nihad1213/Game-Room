@@ -5,51 +5,56 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div>
-                    <img class="console-img" src="../assets/sony/ps1.png" alt="ps1">
-                </div>
-                
-                <div>
-                    <a href="#">Playstation 1</a>
-                </div>
-            </div>
-            
-            <div class="swiper-slide">
-                <div>
-                    <img class="console-img" src="../assets/sony/ps2.png" alt="ps2">
-                </div>
-                
-                <div>
-                    <a href="#">Playstation 2</a>
+                    <a href="#">
+                        <img class="console-img" src="../assets/sony/ps1.png" alt="ps1">
+                        <div>
+                            <p>Playstation 1</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             
             <div class="swiper-slide">
                 <div>
-                    <img class="console-img" src="../assets/sony/ps3.png" alt="ps3">
-                </div>
-                
-                <div>
-                    <a href="#">Playstation 3</a>
+                    <a href="#">
+                        <img class="console-img" src="../assets/sony/ps2.png" alt="ps1">
+                        <div>
+                            <p>Playstation 2</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             
             <div class="swiper-slide">
                 <div>
-                    <img class="console-img" src="../assets/sony/psp.png" alt="psp">
+                    <a href="#">
+                        <img class="console-img" src="../assets/sony/ps3.png" alt="ps1">
+                        <div>
+                            <p>Playstation 3</p>
+                        </div>
+                    </a>
                 </div>
-                
+            </div>
+            
+            <div class="swiper-slide">
                 <div>
-                    <a href="#">PSP</a>
+                    <a href="#">
+                        <img class="console-img" src="../assets/sony/psp.png" alt="ps1">
+                        <div>
+                            <p>PSP</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div>
-                    <img class="console-img" src="../assets/sony/psvita.png" alt="psvita">
-                </div>
-                
-                <div>
-                    <a href="#">PS Vita</a>
+                    <a href="#">
+                        <img class="console-img" src="../assets/sony/psvita.png" alt="ps1">
+                        <div>
+                            <p>PS Vita</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

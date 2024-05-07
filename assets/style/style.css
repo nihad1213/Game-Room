@@ -81,6 +81,7 @@ ul li a {
     text-align: center;
     margin: 0;
     padding: 0;
+    z-index: 10;
 }
 
 .comp-name:hover {

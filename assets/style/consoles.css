@@ -1,7 +1,23 @@
 .console-img {
-    width: 50%;
+    width: 40%;
+}
+
+.swiper {
+    margin-bottom: 40px;
 }
 
 .swiper-slide {
     text-align: center;
+}
+
+.swiper-slide a {
+    text-decoration: none;
+}
+
+.swiper-slide p {
+    color: #fff;
+    background-color: #1b3aa0;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 21px;
 }
