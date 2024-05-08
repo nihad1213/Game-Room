@@ -44,6 +44,10 @@
     margin-left: 12px;
 }
 
+.items a {
+    text-decoration: none;
+}
+
 aside {
     display: flex;
 }
@@ -94,4 +98,6 @@ aside {
 .card button:hover {
     background-color: #1b3aa0;
 }
+
+
 /*Card part end*/
