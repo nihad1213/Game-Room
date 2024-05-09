@@ -1,3 +1,8 @@
+<?php include_once('../config/config.php');?>
+<?php 
+    $object = new Database;
+    $object->connect();
+?>
 <?php include_once('header.php'); ?>
 
 <main>
@@ -68,7 +73,7 @@
 
 <aside>
     <?php include_once('filter.php'); ?>
-    <div class="items">
+    <div class="items col-10">
         <a href="#">
             <div class="card" style="width: 14rem;">
                     <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
@@ -129,6 +134,67 @@
                 </div>
             </div>
         </a>
+        <a href="#">
+            <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tekken 3</h5>
+                    <p class="card-text">12$</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tekken 3</h5>
+                    <p class="card-text">12$</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tekken 3</h5>
+                    <p class="card-text">12$</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tekken 3</h5>
+                    <p class="card-text">12$</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tekken 3</h5>
+                    <p class="card-text">12$</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="../assets/items-images/tekken3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tekken 3</h5>
+                    <p class="card-text">12$</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </a>
+    
     </div>
 </aside>
 
