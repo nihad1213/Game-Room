@@ -60,7 +60,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
         </div>
 
         <div class="footer-links-paragraph">
-            <form method="post">
+            <form method="post" action="send.php">
                 <div class="contact-us-form">
                     <div>
                         <div>
@@ -68,7 +68,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         </div>
 
                         <div>
-                            <input type="text" placeholder="Enter your Name" required>
+                            <input name="name" type="text" placeholder="Enter your Name" required>
                         </div>
                     </div>
 
@@ -102,25 +102,23 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         </div>
                     </div>
                 </div>
-            </form>
-
+            
             <div class="captcha">
                     <div class="captcha-img">
                         <img src="../captcha/captcha-generator.php?rand = <?php echo rand(); ?>" alt="captcha-img" id="captcha-img">
                         <span><a href="javascript: refreshCaptcha()">Can't See? Refresh Image</a></span>
                     </div>
 
-                    <form method="post">
                         <div>
                             <label for="captcha-input">Write Characters Shown in Image:</label>
                         </div>
                         <input type="text" name="captcha">
 
                         <div class="captcha-submit">
-                            <button class="captcha-button" type="submit" name="submit">Send Message</button>
+                            <button class="captcha-button" type="submit" name="submit">Send Message</input>
                         </div>
-                    </form>
-                </div>
+            </form>
+            </div>
         </div>
 </div>
 </main>
