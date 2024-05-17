@@ -115,8 +115,7 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         <input type="text" name="captcha">
 
                         <div class="captcha-submit">
-                            <button class="captcha-button" type="submit" name="submit">Send Message</input>
-                        </div>
+                            <button class="captcha-button" type="submit" name="submit">Send Message</buttoform                       </div>
             </form>
             </div>
         </div>
@@ -124,4 +123,3 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
 </main>
 <script src="../assets/script/refresh-captcha.js"></script>
 <?php include_once('footer.php'); ?>
-

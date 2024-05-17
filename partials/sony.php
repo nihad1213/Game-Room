@@ -194,7 +194,6 @@
                 </div>
             </div>
         </a>
-    
     </div>
 </aside>
 
