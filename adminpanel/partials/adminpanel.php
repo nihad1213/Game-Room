@@ -6,8 +6,8 @@
     <div class="main">
         <div class="sections">
             <div class="section">
-                <h2>Admins</h2>
-                <p>Number of Admins</p>
+                <h2>32</h2>
+                <p>Admins</p>
             </div>
 
             <div class="section">

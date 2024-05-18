@@ -79,6 +79,17 @@
     margin: 5px;
     text-align: center;
     padding: 6px;
+    width: 20%;
+    height: 50%;
+}
+
+.section h2 {
+    color: #ffdd45;
+}
+
+.section p {
+    color: #fff;
+    font-size: 25px;
 }
 /*Main part Starts*/
 

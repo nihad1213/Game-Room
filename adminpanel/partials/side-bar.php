@@ -1,11 +1,17 @@
 <div class="sidebar">
     <ul>
         <li>
-            <a href="#">
-                <i class="fa-solid fa-box"></i>
+            <a href="adminpanel.php">
+                <i class="fa-solid fa-house"></i>
                 <span class="nav-item">Dashboard</span>
             </a>
-            <span class="tooltip">Dashboard</span>
+        </li>
+
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+                <span class="nav-item">Admin</span>
+            </a>
         </li>
 
         <li>
@@ -23,13 +29,12 @@
             </a>
             <span class="tooltip">Dashboard</span>
         </li>
-
+        
         <li>
-            <a href="#">
-                <i class="bx bxs-grid-alt"></i>
-                <span class="nav-item">Dashboard</span>
+            <a href="../../">
+                <i class="fas fa-sign-out"></i>
+                <span class="nav-item">Back</span>
             </a>
-            <span class="tooltip">Dashboard</span>
         </li>
     </ul>
 </div>
