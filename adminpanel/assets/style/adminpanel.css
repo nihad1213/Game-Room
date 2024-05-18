@@ -107,6 +107,39 @@ span .owner {
 .footer strong {
     color: #ffdd45;
 }
-
-
 /*Footer part ends*/
+
+/*Admin Part Start*/
+.main-page {
+    margin-left: 230px;
+}
+
+.main-page-header h2 {
+    color: #2e58e0;
+    font-weight: bold;
+}
+/*Admin Part End*/
+
+/*CSS for items in multiple files*/
+.add-item {
+    padding: 5px;
+    color: #fff;
+    background-color: #27ae60;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-item:hover {
+    background-color: #229652;
+}
+
+.board table tr td {
+    padding: 14px;
+}
+
+.board table tr th {
+    padding: 12px;
+    border-bottom: 1px solid #000;
+    bottom: 12px;
+    text-align: left;
+}

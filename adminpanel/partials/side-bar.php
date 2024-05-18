@@ -8,7 +8,7 @@
         </li>
 
         <li>
-            <a href="#">
+            <a href="admin.php">
                 <i class="fa-solid fa-user"></i>
                 <span class="nav-item">Admin</span>
             </a>
