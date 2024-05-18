@@ -1,3 +1,9 @@
+<?php include_once('../config/config.php'); ?>
+<?php include_once('../config/functions.php');?>
+<?php
+    $object = new Database;
+    $object->connect();
+?>
 <!DOCTYPE html>
 <html lang="en">
  
@@ -32,7 +38,7 @@
 </head>
  
 <body>
-    <form action="#" method="post">
+    <form action="partials/adminpanel.php" method="post">
         <div class="login-box">
             <h1><strong>Admin Login</strong></h1>
  
