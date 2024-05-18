@@ -1,4 +1,4 @@
-<?php include_once('../config/config.php'); ?>
+<?php include_once('../config/connection.php'); ?>
 <?php include_once('../config/functions.php');?>
 <?php
     $object = new Database;

@@ -143,3 +143,18 @@ span .owner {
     bottom: 12px;
     text-align: left;
 }
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+form input {
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.add-action {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
