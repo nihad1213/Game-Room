@@ -1,3 +1,12 @@
+<?php include_once('../../config/connection.php');?>
+<?php include_once('../../config/admin.funcs.php');?>
+<?php session_start();?>
+
+<?php 
+    $object = new showAdmins;
+    $statement = $object->showAdmins();
+?>
+
 <?php include_once('header.php');?>
 <main>
     <?php include_once('side-bar.php');?>
@@ -22,11 +31,15 @@
                     <th>Actions</th>
                 </tr>
                 <tr>
-                    <td><strong>1</strong></td>
-                    <td>Nihad</td>
-                    <td>nihad.nemetli@gmail.com</td>
+                    <?php
+                        if ($statement) {
+                            while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
+                    ?>
+                    <td><strong><?php echo $row['adminID'] ?></strong></td>
+                    <td><?php echo $row['adminName'] ?></td>
+                    <td><?php echo $row['adminEmail'] ?></td>
                     <td>
-                        <a href="#">
+                        <a href="delete-admin.php?adminID=<?php echo $row['adminID'];?>">
                             <button type="button" class="btn btn-danger">Delete Admin</button> 
                         </a>
                     </td>
@@ -37,6 +50,10 @@
                         </a>
                     </td>
                 </tr>
+                    <?php 
+                            }
+                        }
+                    ?>
             </table>
         </div>
     </div>

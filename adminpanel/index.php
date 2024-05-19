@@ -1,5 +1,5 @@
 <?php include_once('../config/connection.php'); ?>
-<?php include_once('../config/functions.php');?>
+<?php include_once('../config/admin.funcs.php');?>
 <?php
     $object = new Database;
     $object->connect();

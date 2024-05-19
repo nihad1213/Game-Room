@@ -1,8 +1,9 @@
 <?php include_once('../../config/connection.php');?>
 <?php include_once('../../config/admin.funcs.php');?>
+<?php session_start(); ?>
 <?php 
-$object = new Admins;
-echo $object->addAdmins();
+    $object = new addAdmins;
+    echo $object->addAdmins();
 ?>
 <?php include_once('header.php');?>
 <main>

@@ -1,6 +1,7 @@
 <?php include_once('header.php'); ?>    
 
 <main>
+    <div class="container">
     <?php include_once('side-bar.php'); ?>
 
     <div class="main">
@@ -25,6 +26,7 @@
                 <p>Number of Admins</p>
             </div>
         </div>
+    </div>
     </div>
 </main>
 
