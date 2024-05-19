@@ -74,4 +74,22 @@ class deleteAdmin extends Database {
         exit();
     }
 }
+
+class countAdmins extends Database {
+    /**
+     * getAdminCount - Retrieve the number of admins
+     * Return: int - The number of admins
+     */
+    public function getAdminCount() {
+        // Prepare the SQL query to count the number of admins
+        $statement = $this->connect()->prepare("SELECT COUNT(*) as adminCount FROM `admins`");
+        $statement->execute();
+
+        // Fetch the result
+        $result = $statement->fetch(PDO::FETCH_ASSOC);
+
+        // Return the number of admins
+        return $result['adminCount'];
+    }
+}
 ?>
