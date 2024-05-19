@@ -16,6 +16,29 @@
             <h2>Admin</h2>
         </div>
 
+        <div>
+            <?php 
+                if (isset($_SESSION['add-admin-success'])) {
+                    echo $_SESSION['add-admin-success'];
+                    unset($_SESSION['add-admin-success']);
+                }
+                if (isset($_SESSION['add-admin-fail'])) {
+                    echo $_SESSION['add-admin-fail'];
+                    unset($_SESSION['add-admin-fail']);
+                }
+                if (isset($_SESSION['delete-admin-success'])) {
+                    echo $_SESSION['delete-admin-success'];
+                    unset($_SESSION['delete-admin-success']);
+                }
+                if (isset($_SESSION['delete-admin-fail'])) {
+                    echo $_SESSION['delete-admin-fail'];
+                    unset($_SESSION['delete-admin-fail']);
+                }
+
+                session_destroy();
+            ?>
+        </div>
+
         <div class="action">
             <a href="add-admin.php">
                 <button type="button" class="btn btn-success">Add Admin</button>
@@ -46,7 +69,7 @@
                     </td>
                     
                     <td>
-                        <a href="#">
+                        <a href="edit-admin.php?adminID=<?php echo $row['adminID']; ?>">
                             <button type="button" class="btn btn-warning">Edit Admin</button>
                         </a>
                     </td>
@@ -59,6 +82,5 @@
         </div>
     </div>
 
-    
 </main>
 <?php include_once('footer.php');?>
