@@ -2,9 +2,7 @@
 <?php include_once('../../config/admin.funcs.php');?>
 <?php session_start(); ?>
 
-<?php
-    
-?>
+
 
 <?php include_once('header.php');?>
 <main>
@@ -22,26 +20,22 @@
                     unset($_SESSION['pass-didnt-match']);
                 }
             ?>
-        </div>     
+        </div>
 
-        <?php 
-            
-        ?>
-        
         <div class="board">
             <form action="add-admin.php" method="POST">
-                <input type="hidden" name="adminID" value="<?php echo $adminID; ?>">
-                <label>Admin Username: </label><input type="text" name="adminName" 
-                placeholder="Enter Admin Username..." required value="<?php echo $row['adminName']?>">
+                <input type="hidden" name="AdminID" value="<?php  ?>">
+                <label>New Admin Username: </label><input type="text" name="adminName" 
+                placeholder="Enter Admin Username..." value="<?php  ?>">
                 <br>
-                <label>Admin Email: </label><input type="email" name="adminEmail" 
-                placeholder="Enter Admin Email..." required value="<?php ?>">
+                <label>New Admin Email: </label><input type="email" name="newAdminEmail" 
+                placeholder="Enter Admin Email..." value="<?php ?>">
                 <br>
-                <label>Admin Password: </label><input type="password" name="adminPassword" 
-                placeholder="Enter Admin Password..." required value="<?php ?>">
+                <label>New Admin Password: </label><input type="text" name="newAdminPassword" 
+                placeholder="Enter Admin Password...">
                 <br>
-                <label>Admin Password: </label><input type="password" name="adminPasswordAgain" 
-                placeholder="Enter Admin Password Again..." required value="<?php ?>">
+                <label>New Admin Password: </label><input type="text" name="newAdminPasswordAgain" 
+                placeholder="Enter Admin Password Again...">
             
                 <div class="add-action">
                     <a href="add-admin.php">

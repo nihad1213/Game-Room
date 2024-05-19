@@ -90,22 +90,5 @@
 ?>
 
 <?php 
-    class editAdmins extends Database {
-        /**
-         * editAdmin - Edit admin
-         * @adminID: Admin ID
-         * Return: Void
-         */
-        public function editAdmins($adminID) {      
-            if (!isset($adminID)) {
-                return false;
-            }
-            
-            $statement = $this->connect()->prepare("SELECT * FROM `admins` WHERE adminID = :adminID");
-            $statement->bindParam(':adminID', $adminID, PDO::PARAM_INT);
-            $statement->execute();
 
-            return $statement->fetch(PDO::FETCH_ASSOC);
-        }   
-    }
 ?>
