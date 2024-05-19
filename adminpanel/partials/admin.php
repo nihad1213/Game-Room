@@ -30,6 +30,7 @@
                     <th>Admin Email</th>
                     <th>Actions</th>
                 </tr>
+                
                 <tr>
                     <?php
                         if ($statement) {

@@ -4,6 +4,12 @@
     font-style: normal;
 }
 
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
 /*Header part starts*/
 .header {
     text-align: center;
@@ -22,10 +28,7 @@
 
 /*Side bar starts*/
 .sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 854px;
+    height: auto; /* 854px */
     width: 180px;
     background-color: #08143b;
     padding: .4rem .8rem;
@@ -62,15 +65,19 @@
     line-height: 50px;
 }
 
-.container {
+.container {    
+    height: 100%;
     display: grid;
     grid-template-columns: 200px 1fr;
+    max-width: 100%;
+    padding: 0;
 }
 /*Side bar ends*/
 
 /*Main part starts*/
-.main {
-    margin-left: 230px;
+main {
+    display: flex;
+    align-items: stretch;
 }
 
 .sections {
@@ -117,6 +124,7 @@ span .owner {
 /*Admin Part Start*/
 .main-page {
     margin-left: 230px;
+    align-items: center;
 }
 
 .main-page-header h2 {
