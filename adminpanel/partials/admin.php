@@ -35,6 +35,20 @@
                     unset($_SESSION['delete-admin-fail']);
                 }
 
+                if (isset($_SESSION['pass-didnt-match'])) {
+                    echo $_SESSION['pass-didnt-match'];
+                    unset($_SESSION['pass-didnt-match']);
+                }
+
+                if (isset($_SESSION['admin-edit-success'])) {
+                    echo $_SESSION['admin-edit-success'];
+                    unset($_SESSION['admin-edit-success']);
+                }
+
+                if (isset($_SESSION['admin-edit-fail'])) {
+                    echo $_SESSION['admin-edit-fail'];
+                    unset($_SESSION['admin-edit-fail']);
+                }
                 session_destroy();
             ?>
         </div>
