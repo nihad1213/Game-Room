@@ -20,6 +20,13 @@
                     echo $_SESSION['pass-didnt-match'];
                     unset($_SESSION['pass-didnt-match']);
                 }
+
+                if (isset($_SESSION['pass-short'])) {
+                    echo $_SESSION['pass-short'];
+                    unset($_SESSION['pass-short']);
+                }
+
+                session_destroy();
             ?>
         </div>
 

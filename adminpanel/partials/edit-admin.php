@@ -77,7 +77,7 @@ include_once('header.php');
         ";
 
         $result = mysqli_query($connection, $sql2);
-
+        
         if ($result == TRUE) {
             $_SESSION['admin-edit-success'] = "<div style='color: #20914f;'>Admin Edited Successfully</div>";
         } else {
