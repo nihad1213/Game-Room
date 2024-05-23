@@ -44,7 +44,7 @@
                 <a href="../index.php" class="col-8 logo">
                     <img src="../assets/logos/logo2.png" alt="logo">
                 </a>
-                <a href="#" class="col-2 nav-item"><strong>Sell Video Games</strong></a>
+                <a href="sell-video-games.php" class="col-2 nav-item"><strong>Sell Video Games</strong></a>
                 <a href="#" class="col-1 nav-item"><strong><i class="fa-solid fa-user"></i></strong></a>
                 <a href="#" class="col-1 nav-item"><strong><i class="fa-solid fa-cart-shopping"></i></strong><i></a>
             </nav>

@@ -115,7 +115,8 @@ if (isset($_POST['captcha']) && ($_POST['captcha'] != '')) {
                         <input type="text" name="captcha">
 
                         <div class="captcha-submit">
-                            <button class="captcha-button" type="submit" name="submit">Send Message</buttoform                       </div>
+                            <button class="captcha-button" type="submit" name="submit">Send Message</button>                     
+                        </div>
             </form>
             </div>
         </div>

@@ -306,6 +306,21 @@ ul li a {
 }
 
 /*main FAQs end*/
+
+/*main send video games start*/
+.footer-links-paragraph .upload button {
+    padding: 9px;
+    color: #fff;
+    background-color: #00346e;
+    border-radius: 3px;
+    border-width: 0;
+}
+
+.footer-links-paragraph .upload button:hover {
+    background-color: #1b3aa0;
+}
+/*main send video games end*/
+
 /*main part ends*/
 
 
