@@ -1,6 +1,8 @@
 <?php
-session_start();
+header('Content-Type: image/jpeg');
+header("Cache-Control: no-store, no-cache, must-revalidate");
 
+session_start();
 define('CAPTCHA_FONT', 'atwriter.ttf');
 define('CAPTCHA_WIDTH', 200);
 define('CAPTCHA_HEIGHT', 65);
@@ -82,11 +84,8 @@ for ($i = 0; $i < CAPTCHA_WIDTH; $i++) {
     );
 }
 
-header('Content-Type: image/jpeg');
-header("Cache-Control: no-store, no-cache, must-revalidate");
 imagejpeg($bendImage);
 imagedestroy($captchaImage);
 imagedestroy($bendImage);
 
 $_SESSION['captcha'] = $captchaCode;
-?>
