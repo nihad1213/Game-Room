@@ -22,21 +22,21 @@
         </li>
 
         <li>
-            <a href="#">
+            <a href="ps1-system.php">
                 <i class="fa-brands fa-playstation"></i>
                 <span class="nav-item">PS1 System</span>
             </a>
         </li>
         
         <li>
-            <a href="#">
+            <a href="ps1-acces.php">
                 <i class="fa-brands fa-playstation"></i>
                 <span class="nav-item">PS1 Accessory</span>
             </a>
         </li>
 
         <li>
-            <a href="#">
+            <a href="ps1-games.php">
                 <i class="fa-brands fa-playstation"></i>
                 <span class="nav-item">PS1 Games</span>
             </a>

@@ -168,6 +168,10 @@ form input {
     margin-top: 4px;
 }
 
+form select {
+    margin-top: 4px;
+}
+
 .add-action {
     margin-top: 20px;
     margin-bottom: 20px;

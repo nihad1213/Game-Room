@@ -25,3 +25,15 @@ CREATE TABLE IF NOT EXISTS subscribers(
     subscriberMail varchar(255) NOT NULL,
     PRIMARY KEY (subscriberID)
 );
+
+/**************/
+/* PS1 SYSTEM */
+/**************/
+
+Create TABLE IF NOT EXISTS ps1system(
+    systemID int NOT NULL AUTO_INCREMENT,
+    systemName varchar(255) NOT NULL,
+    systemCondition varchar(255) NOT NULL,
+    systemImageName varchar(255) NOT NULL,
+    PRIMARY KEY (systemID)
+);
