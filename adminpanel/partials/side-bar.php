@@ -23,15 +23,22 @@
 
         <li>
             <a href="#">
-                <i class="bx bxs-grid-alt"></i>
-                <span class="nav-item">Dashboard</span>
+                <i class="fa-brands fa-playstation"></i>
+                <span class="nav-item">PS1 System</span>
             </a>
         </li>
         
         <li>
-            <a href="../../">
-                <i class="fas fa-sign-out"></i>
-                <span class="nav-item">Back</span>
+            <a href="#">
+                <i class="fa-brands fa-playstation"></i>
+                <span class="nav-item">PS1 Accessory</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <i class="fa-brands fa-playstation"></i>
+                <span class="nav-item">PS1 Games</span>
             </a>
         </li>
     </ul>

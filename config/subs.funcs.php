@@ -12,3 +12,21 @@ class showSubs extends Database {
     }
 }
 ?>
+<?php
+class countSubs extends Database {
+    /**
+     * getAdminCount - Retrieve the number of admins
+     * Return: int - The number of admins
+     */
+    public function getSubCount() {
+        // Prepare the SQL query to count the number of admins
+        $statement = $this->connect()->prepare("SELECT COUNT(*) as subCount FROM `subscribers`");
+        $statement->execute();
+
+        // Fetch the result
+        $result = $statement->fetch(PDO::FETCH_ASSOC);
+
+        // Return the number of admins
+        return $result['subCount'];
+    }
+}

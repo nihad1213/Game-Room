@@ -56,7 +56,7 @@
                   <li class="comp-name">
                      <a  href="sony.php">Sony </a>
                      <ul class="dropdown">
-                        <li><a href="#">Playstation 1 </a></li>
+                        <li><a href="sony1.php">Playstation 1 </a></li>
                         <li><a href="#">Playstation 2</a></li>
                         <li><a href="#">Playstation 3</a></li>
                         <li><a href="#">PSP</a></li>
