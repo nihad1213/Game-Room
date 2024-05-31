@@ -33,7 +33,7 @@
     <!--CSS link starts-->
      <link rel="stylesheet" href="../assets/style/adminpanel.css">
     <!--CSS link ends partials/adminpanel.php-->
-    <title>Admin Login</title>
+    <title>Admin Panel</title>
 </head>
 <body>
     <header>

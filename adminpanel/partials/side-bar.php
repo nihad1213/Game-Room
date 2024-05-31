@@ -15,11 +15,10 @@
         </li>
 
         <li>
-            <a href="#">
-                <i class="bx bxs-grid-alt"></i>
-                <span class="nav-item">Dashboard</span>
+            <a href="subscibers.php">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="nav-item">Send Message</span>
             </a>
-            <span class="tooltip">Dashboard</span>
         </li>
 
         <li>
@@ -27,7 +26,6 @@
                 <i class="bx bxs-grid-alt"></i>
                 <span class="nav-item">Dashboard</span>
             </a>
-            <span class="tooltip">Dashboard</span>
         </li>
         
         <li>

@@ -1,3 +1,11 @@
+<?php include_once('config/connection.php'); ?>
+<?php 
+   $dataBase = new Database;
+   $pdo = $dataBase->connect();
+?>
+<?php 
+   ob_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -153,20 +161,35 @@
          </div>
 
          <div class="subsriber-input">
-            <form action="index.php">
+            <form method="POST">
                <span>
                   <i class="fa-solid fa-envelope"></i>
                </span>
-               <input type="email" placeholder="Enter your Mail">
-               <button type="submit"><i class="fa-brands fa-telegram"></i></button>
+               <input type="email" name="email" placeholder="Enter your Mail">
+               <button type="submit" name="submit"><i class="fa-brands fa-telegram"></i></button>
             </form>
          </div>
+
+         <?php
+            if (isset($_POST['submit'])) {
+               $email = $_POST['email'];
+               
+               $sql = $pdo->prepare("INSERT INTO subscribers (subscriberMail) VALUES (:email)");
+               $sql->bindParam(':email', $email);
+               if ($sql->execute()){
+                  header('Location: index.php');
+                  exit();
+               } else {
+                  #ERROR
+               }
+            }
+         ?>
       </div>
    </main>
    
    <footer>   
       <div class="footer-image">
-         <img src="assets/logos/logo2.png" alt="">
+         <img src="assets/logos/logo2.png" alt="logo">
       </div>
       
       <div class="footer-total">

@@ -29,7 +29,7 @@ body {
 /*Side bar starts*/
 .sidebar {
     height: auto; /* 854px */
-    width: 180px;
+    width: 200px;
     background-color: #08143b;
     padding: .4rem .8rem;
     transition: all 0.5s ease;
@@ -124,7 +124,7 @@ span .owner {
 
 /*Admin Part Start*/
 .main-page {
-    margin-left: 230px;
+    margin-left: 70px;
     align-items: center;
 }
 
