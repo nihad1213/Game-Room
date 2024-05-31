@@ -7,6 +7,7 @@ class addSystem extends Database {
     public function addSystem() {
         if (isset($_POST['button'])) {
             $systemName = $_POST['systemName'];
+            $systemPrice = $_POST['systemPrice'];
             $systemCondition = $_POST['systemCondition'];
             $imageName = ""; // Initialize imageName to an empty string
             
@@ -22,9 +23,10 @@ class addSystem extends Database {
                 }
             }
 
-            $statement = $this->connect()->prepare("INSERT INTO `ps1system` (systemName, systemCondition, systemImageName) VALUES (:systemName, :systemCondition, :systemImageName)");
+            $statement = $this->connect()->prepare("INSERT INTO `ps1system` (systemName, systemPrice, systemCondition, systemImageName) VALUES (:systemName, :systemPrice, :systemCondition, :systemImageName)");
             $statement->execute([
                 ':systemName' => $systemName,
+                ':systemPrice' => $systemPrice,
                 ':systemCondition' => $systemCondition,
                 ':systemImageName' => $imageName
             ]);
@@ -35,9 +37,53 @@ class addSystem extends Database {
                 $_SESSION['add-system-fail'] = "<div style='color: #FF0000;'>Failed to Add System</div>";
             }
             
-            header('Location: http://localhost/Game-Room/adminpanel/partials/add-ps1-system.php');
+            header('Location: http://localhost/Game-Room/adminpanel/partials/ps1-system.php');
             exit();
         }
+    }
+}
+?>
+
+
+<?php 
+    class showSystems extends Database {
+        /**
+         * showSystem - Show Systems in Page
+         * Return: $statement
+         */
+        public function showSystem() {
+            $statement = $this->connect()->prepare("SELECT * FROM `ps1system`");
+            $statement->execute();
+            return $statement;
+        }
+    }
+?>
+
+<?php 
+class deleteSystem extends Database {
+    /**
+     * deleteAdmin - Delete Admin
+     * @SystemID: System ID
+     * Return: Void
+     */
+    public function deleteSystem($systemID) {
+        if (!isset($systemID)) {
+            return false;
+        }
+        
+        $statement = $this->connect()->prepare("DELETE FROM `ps1system` WHERE systemID = :systemID");
+        $statement->bindParam(':systemID', $systemID, PDO::PARAM_INT);
+
+        $success = $statement->execute();
+            
+        if ($success) {
+            $_SESSION['delete-system-success'] = "<div style='color: #20914f;'>Admin Deleted Successfully</div>";
+        } else {
+            $_SESSION['delete-system-fail'] = "<div style='color: #FF0000;'>Failed to Delete Admin</div>";
+        }
+
+        header('Location: http://localhost/Game-Room/adminpanel/partials/ps1-system.php');
+        exit();
     }
 }
 ?>

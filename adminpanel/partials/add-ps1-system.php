@@ -33,16 +33,17 @@
         <div class="board">
         <form action="add-ps1-system.php" method="POST" enctype="multipart/form-data">
             <label>System Name: </label><input type="text" name="systemName" placeholder="Enter System Name..." required><br>
+            <label>System Price: </label><input type="number" name="systemPrice" placeholder="Enter System Price..." required><br>
             <label>System Condition: </label>
             <select name="systemCondition">
                 <option value="Bad">Bad</option>
                 <option value="Good">Good</option>
-                <option value="Excellent">Excellent</option> <!-- Corrected spelling -->
+                <option value="Excellent">Excellent</option>
             </select><br>
             <label>System Image: </label><input type="file" name="systemImage" required><br>
 
             <div class="add-action">
-                <button type="submit" class="btn btn-success" name="button">Add System</button> <!-- Directly inside the form -->
+                <button type="submit" class="btn btn-success" name="button">Add System</button>
             </div>
         </form>
 

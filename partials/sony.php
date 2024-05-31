@@ -10,7 +10,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div>
-                    <a href="#">
+                    <a href="sony1.php">
                         <img class="console-img" src="../assets/sony/ps1.png" alt="ps1">
                         <div>
                             <p>Playstation 1</p>
