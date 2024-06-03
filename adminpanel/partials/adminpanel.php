@@ -25,7 +25,7 @@
                     $subCount = $object->getSubCount();
                 ?>
                 <h2><?php echo $subCount; ?></h2>
-                <p>Number of Subscribers</p>
+                <p>Subscribers</p>
             </div>
 
             <div class="section">

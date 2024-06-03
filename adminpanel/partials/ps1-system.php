@@ -4,7 +4,8 @@
 
 <?php 
     $object = new showSystems;
-    $statement = $object->showSystem();
+    $data = $object->showSystem();
+    $statement = $data["statement"]; 
 ?>
 
 <?php include_once('header.php');?>

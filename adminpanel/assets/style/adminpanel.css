@@ -83,6 +83,7 @@ main {
 .sections {
     display: flex;
     flex-wrap: wrap;
+    height: 60%;
 }
 
 .section {

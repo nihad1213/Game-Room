@@ -49,12 +49,24 @@ class addSystem extends Database {
     class showSystems extends Database {
         /**
          * showSystem - Show Systems in Page
-         * Return: $statement
+         * Return: array
          */
         public function showSystem() {
-            $statement = $this->connect()->prepare("SELECT * FROM `ps1system`");
-            $statement->execute();
-            return $statement;
+            $start = 0;
+            $records = $this->connect()->prepare("SELECT * FROM `ps1system`");
+            $records->execute(); // Execute the query
+            $numberOfRows = $records->rowCount(); // Count the number of rows
+
+            $pages = ceil($numberOfRows / 12);
+
+            if (isset($_GET['page-nr'])) {
+                $page = $_GET['page-nr'] - 1; 
+                $start  = $page * 12;
+            }
+
+            $statement = $this->connect()->prepare("SELECT * FROM `ps1system` LIMIT $start, 12");
+            $statement->execute(); // Execute the query
+            return array("statement" => $statement, "pages" => $pages); // Return statement and pages count
         }
     }
 ?>
