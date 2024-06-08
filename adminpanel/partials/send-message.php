@@ -46,13 +46,13 @@
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'nihad.nemetli@gmail.com'; // Your Gmail username
-                $mail->Password   = 'vedlfyztnzeidysh'; // Your Gmail password
+                $mail->Username   = ''; // Your Gmail username
+                $mail->Password   = ''; // Your Gmail password
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port       = 465;
                 
                 // Sender
-                $mail->setFrom("nihad.nemetli@gmail.com", "GameRoom");
+                $mail->setFrom("", "GameRoom");
 
                 // Fetch all subscribers' emails
                 $statement = $pdo->prepare("SELECT * FROM `subscribers`");

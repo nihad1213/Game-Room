@@ -34,14 +34,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'nihad.nemetli@gmail.com';
-            $mail->Password   = 'vedlfyztnzeidysh';
+            $mail->Username   = '';
+            $mail->Password   = '';
             $mail->SMTPSecure = 'ssl';
             $mail->Port       = 465;
 
             // Sender and recipient
             $mail->setFrom($email, $name);
-            $mail->addAddress("nihad.nemetli@gmail.com");
+            $mail->addAddress("");
             $mail->addReplyTo($email, $name);
 
             // File handling
